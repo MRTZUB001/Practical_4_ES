@@ -1,2 +1,10 @@
 # Practical_4_ES
-Nothing
+#!/usr/bin/python
+
+import RPi.GPIO as GPIO
+import Adafruit_MCP3008
+import time
+import datetime
+import os
+
+GPIO.setmode(GPIO.BCM)
